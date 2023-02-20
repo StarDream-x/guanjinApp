@@ -1,0 +1,34 @@
+{
+  "pages": [  
+    "pages/index/index",
+    "pages/p2/p2",
+    "pages/p8/p8",
+    "pages/p7/p7",
+    "pages/p6/p6",
+    "pages/p5/p5",
+     "pages/p4/p4",
+    "pages/p3/p3",
+    "pages/p1/p1",
+    "pages/p0/p0",
+    "pages/baoxian1/baoxian1",
+    "pages/baoxian2/baoxian2",
+    "pages/baoxian3/baoxian3",
+    "pages/baoxian4/baoxian4",
+    "pages/baoxian5/baoxian5",
+    "pages/baoxian6/baoxian6",
+    "pages/qianbao1/qianbao1",
+    "pages/base/base"
+
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "管金",
+    "navigationBarTextStyle": "black"
+  },
+
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}

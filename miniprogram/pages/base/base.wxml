@@ -1,0 +1,47 @@
+<view class="topView">
+    <view class="top1">
+        <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/profile_picture.png?sign=90c937b66388a164bbffc3bd171ec0f8&t=1646309996" class="profileLoge" mode="widthFix"></image>
+    </view>
+    <view class="top2">
+        <view class="top3">
+            <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/ctb_logo.jpg?sign=4b6f35126e53fb145f84f2404ad13d52&t=1646314671" class="ctbLogo" mode="heightFix"></image>
+            <text class="color_font" space="nbsp"> 花旗银行·管金</text>
+        </view>
+        <view class="top4">
+            <form action="">
+                <view class="search">
+                    <view>
+                    <input type="text" class="searchTerm" placeholder=" 在此处输入" confirm-type="search"/>
+                    </view>
+                    <view>
+                    <navigator url="#">
+                        <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/search_logo.png?sign=1fc9a9a0bc55820fdab652edfe9e9678&t=1646305179" class="searchLogo"></image>
+                    </navigator>
+                    </view>
+                </view>
+            </form>
+        </view>
+    </view>
+</view>
+
+<view class="buttonView">
+    <view class="btnview1">
+        <view class="toIndexView">
+            <navigator url="../index/index">
+                <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/%E9%A6%96%E9%A1%B5.png?sign=283c10de89d96defb6efc4ca4d1ceb85&t=1646313850"></image>
+            <text>\n首页</text>
+            </navigator>
+        </view>
+    </view>
+    <view class="btnview2">
+        <navigator>语音小助手</navigator>
+    </view>
+    <view class="btnview3">
+        <view class="myCountView">
+            <navigator url="#">
+                <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/3.1%E6%88%91%E7%9A%84.png?sign=b05ab9a7062c15adecb21fea1b781d5d&t=1646314328"></image>
+                <text>\n我的账户</text>
+            </navigator>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,34 @@
+<view class="topView">
+    <view class="top1">
+        <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/profile_picture.png?sign=90c937b66388a164bbffc3bd171ec0f8&t=1646309996" class="profileLoge" mode="widthFix"></image>
+    </view>
+    <view class="top2">
+        <view class="top3">
+            <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/ctb_logo.jpg?sign=4b6f35126e53fb145f84f2404ad13d52&t=1646314671" class="ctbLogo" mode="heightFix"></image>
+            <text class="color_font" space="nbsp"> 花旗银行·管金</text>
+        </view>
+        <view class="top4">
+            <form action="">
+                <view class="search">
+                    <view>
+                    <input type="text" class="searchTerm" placeholder=" 在此处输入" confirm-type="search"/>
+                    </view>
+                    <view>
+                    <navigator url="#">
+                        <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/search_logo.png?sign=1fc9a9a0bc55820fdab652edfe9e9678&t=1646305179" class="searchLogo"></image>
+                    </navigator>
+                    </view>
+                </view>
+            </form>
+        </view>
+    </view>
+</view>
+<view class="t1">
+    <text class="m1">总资产（人民币）</text>
+    <view class="m2">￥{{money}}</view>
+</view>
+<view class="t4" wx:if="{{ishide==1}}">
+    <input type="number" class="t3" placeholder="请输入资产" bindinput="bindKeyInput"/>
+</view>
+<button class="t2" bindtap="set">设置资产</button>
+<text>如果有空这里会有一个转账功能</text>

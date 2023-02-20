@@ -1,0 +1,98 @@
+/* pages/p6/p6.wxss */
+.t1
+{
+    position: absolute;
+    top: 50rpx;
+    left: 50rpx;
+    height: 250rpx;
+    width: 88%;
+    background-color: gray;
+}
+.m1
+{
+    position: absolute;
+    top: 20rpx;
+    left: 50rpx;
+    font-size: 50rpx;
+}
+.m2
+{
+    position: absolute;
+    top: 70rpx;
+    left: 150rpx;
+    width: 200rpx;
+    height: 80rpx;
+    background-color: white;
+}
+.m3
+{
+    position: absolute;
+    top: 170rpx;
+    left: 35rpx;
+    font-size: 35rpx;
+
+}
+.m4
+{
+    position: absolute;
+    top: 170rpx;
+    left: 190rpx;
+    width: 130rpx;
+    height: 50rpx;
+    background-color: white;
+}
+.m5
+{
+    position: absolute;
+    top: 170rpx;
+    left: 350rpx;
+    font-size: 35rpx;
+}
+.m6
+{
+    position: absolute;
+    top: 170rpx;
+    left: 500rpx;
+    width: 130rpx;
+    height: 50rpx;
+    background-color: white;
+}
+.t2
+{
+    position: absolute;
+    top: 330rpx;
+    left: 50rpx;
+}
+.table {
+    position: absolute;
+    top: 400rpx;
+    width: 100%;
+    border: 0px solid darkgray;
+  }
+  .tr {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 3rem;
+    align-items: center;
+  }
+  .td {
+      width:40%;
+      justify-content: center;
+      text-align: center;
+  }
+  .bg-w{
+    background: snow;
+  }
+  .bg-g{
+    background: #E6F3F9;
+  }
+  .th {
+    width: 40%;
+    justify-content: center;
+    background: #3366FF;
+    color: #fff;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+  }

@@ -1,0 +1,30 @@
+
+<view class="t1">
+    <text class="m1">资产</text>
+    <view class="m2"></view>
+    <text class="m3">昨日收益</text>
+    <view class="m4"></view>
+    <text class="m5">持仓收益</text>
+    <view class="m6"></view>
+</view>
+<text class="t2">全部产品</text>
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">产品名</view>
+    <view class="th">昨日收益</view>
+    <view class="th ">持仓收益</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="code">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+    </view>
+  </block>
+</view>
+

@@ -1,0 +1,26 @@
+<!--pages/p3/p3.wxml-->
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">基金名称</view>
+    <view class="th">净值</view>
+    <view class="th ">净值估值</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="code">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+    </view>
+  </block>
+</view>
+<view class="m">
+    <navigator class="faxian" url="../p2/p2">发现</navigator>
+    <navigator class="zixuan" url="../p3/p3">自选</navigator>
+    <navigator class="zhanghu" url="../p4/p4">我的账户</navigator>
+</view>
+

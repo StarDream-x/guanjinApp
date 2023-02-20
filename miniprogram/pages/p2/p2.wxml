@@ -1,0 +1,81 @@
+<!--pages/p2/p2.wxml-->
+<view class="topView">
+    <view class="top1">
+        <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/profile_picture.png?sign=90c937b66388a164bbffc3bd171ec0f8&t=1646309996" class="profileLoge" mode="widthFix"></image>
+    </view>
+    <view class="top2">
+        <view class="top3">
+            <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/ctb_logo.jpg?sign=4b6f35126e53fb145f84f2404ad13d52&t=1646314671" class="ctbLogo" mode="heightFix"></image>
+            <text class="color_font" space="nbsp"> 花旗银行·管金</text>
+        </view>
+        <view class="top4">
+            <form action="">
+                <view class="search">
+                    <view>
+                    <input type="text" class="searchTerm" placeholder=" 在此处输入" confirm-type="search"/>
+                    </view>
+                    <view>
+                    <navigator url="#">
+                        <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/search_logo.png?sign=1fc9a9a0bc55820fdab652edfe9e9678&t=1646305179" class="searchLogo"></image>
+                    </navigator>
+                    </view>
+                </view>
+            </form>
+        </view>
+    </view>
+</view>
+
+<view class="t1">高风险基金</view>
+<view class="t2">中风险基金</view>
+<view class="t3">低风险基金</view>
+<view class="t4">个性化推荐</view>
+<view class="tuijian">
+    <swiper class="swiper_container" interval="5000" circular indicator-dots >
+        <swiper-item>
+            <view class="item">
+                <view class="v1">
+                    <view class="A1">产品A</view>
+                    <view class="A2">年化收益率</view>
+                </view>
+                <view class="v2">
+                    <view class="B1">产品B</view>
+                    <view class="B2">年化收益率</view>
+                </view>
+            </view>
+        </swiper-item>
+        <swiper-item>
+            <view class="item">
+                <view class="v1">
+                    <view class="A1">产品A</view>
+                    <view class="A2">年化收益率</view>
+                </view>
+                <view class="v2">
+                    <view class="B1">产品B</view>
+                    <view class="B2">年化收益率</view>
+                </view>
+            </view>
+        </swiper-item>
+        <swiper-item>
+            <view class="item">
+                <view class="v1">
+                    <view class="A1">产品A</view>
+                    <view class="A2">年化收益率</view>
+                </view>
+                <view class="v2">
+                    <view class="B1">产品B</view>
+                    <view class="B2">年化收益率</view>
+                </view>
+            </view>
+        </swiper-item>
+    </swiper>
+</view>
+<view class="t5">今日收益</view>
+<view class="t6">
+    <view class="t7">今日盈亏\n</view>
+    <view class="t8">总财富</view>
+</view>
+<view class="m">
+    <navigator class="faxian" url="../p2/p2">发现</navigator>
+    <navigator class="zixuan" url="../p3/p3">自选</navigator>
+    <navigator class="zhanghu" url="../p4/p4">我的账户</navigator>
+</view>

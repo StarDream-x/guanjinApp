@@ -1,0 +1,70 @@
+/* pages/p8/p8.wxss */
+.t1
+{
+    position: absolute;
+    top: 20rpx;
+    left: 35%;
+    font-size: 50rpx;
+}
+.t2
+{
+    position: absolute;
+    top: 100rpx;
+    left: 50rpx;
+    height: 250rpx;
+    width: 88%;
+    background-color: gray;
+}
+.m1
+{
+    position: absolute;
+    top: 30rpx;
+    left: 50rpx;
+    font-size: 35rpx;
+}
+.m2
+{
+    background-color: white;
+    position: absolute;
+    top: 100rpx;
+    left: 50rpx;
+    height: 100rpx;
+    width: 150rpx;
+}
+.m3
+{
+    position: absolute;
+    top: 30rpx;
+    left: 300rpx;
+    font-size: 35rpx;
+}
+.m4
+{
+    background-color: white;
+    position: absolute;
+    top: 100rpx;
+    left: 300rpx;
+    height: 100rpx;
+    width: 150rpx;
+}
+.t3
+{
+    position: absolute;
+    top: 35%;
+    left: 50rpx;
+    height: 40%;
+    width: 88%;
+    background-color: gray;
+}
+.m5
+{
+    position: absolute;
+    top: 31%;
+    left: 50rpx;
+}
+.t4
+{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}

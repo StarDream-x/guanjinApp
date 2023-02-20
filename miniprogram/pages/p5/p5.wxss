@@ -1,0 +1,80 @@
+/* pages/p5/p5.wxss */
+.top4
+{
+    position: absolute;
+    left: 80rpx;
+    background-color: white;
+    height:70rpx;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.searchTerm
+{
+    width: 530rpx;
+    border: 6rpx solid rgba(36,41,121,1);
+    border-right: none;
+    height: 60rpx;
+    border-radius: 15rpx 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+.search 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.searchLogo
+{
+    width: 60rpx;
+    height: 60rpx;
+    border: 6rpx solid rgba(36,41,121,1);
+    background: rgba(36,41,121,1);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.searchButton icon
+{
+    margin: 10rpx 0 0 0;
+}
+.t1
+{
+    position: absolute;
+    top: 150rpx;
+    left: 70rpx;
+    height: 150rpx;
+    width: 80%;
+    background-color: gray;
+}
+.m1
+{
+    position: absolute;
+    left: 50rpx;
+}
+.t2
+{
+    position: absolute;
+    top: 450rpx;
+    left: 70rpx;
+    height: 500rpx;
+    width: 80%;
+    background-color: gray;
+}
+.m3
+{
+    position: absolute;
+    top: 400rpx;
+    left: 70rpx;
+    background-color: white;
+}
+.m5
+{
+    position: absolute;
+    top: 85%;
+    left: 25%;
+}

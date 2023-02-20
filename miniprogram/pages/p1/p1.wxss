@@ -1,0 +1,268 @@
+.topView
+{
+    height: 120rpx;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    margin: 10rpx 0 0;
+}
+.top1
+{
+    width:120rpx;
+    height: 120rpx;
+    border-radius: 100%;
+    margin: 0 5rpx;
+    text-align: center;
+    display: flex;
+    
+}
+
+.top2
+{
+    width: 620rpx;
+    display: flex;
+    flex-direction: column;
+    height: 120rpx;
+}
+.top3
+{
+    height: 40rpx;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rpx;
+}
+.top3 image
+{
+    height: 40rpx;
+}
+.top4
+{
+    background-color: white;
+    height:70rpx;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.searchTerm
+{
+    width: 530rpx;
+    border: 6rpx solid rgba(36,41,121,1);
+    border-right: none;
+    height: 60rpx;
+    border-radius: 15rpx 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+.search 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.searchLogo
+{
+    width: 60rpx;
+    height: 60rpx;
+    border: 6rpx solid rgba(36,41,121,1);
+    background: rgba(36,41,121,1);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.searchButton icon
+{
+    margin: 10rpx 0 0 0;
+}
+.profileLoge
+{
+    height: 90%;
+    width: 90%;
+    margin: 10rpx 0 0;
+}
+
+.buttonView
+{
+    height:175rpx;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.btnview1
+{
+    height: 130rpx;
+    width: 150rpx;
+    align-self:flex-end;
+    text-align: center;
+}
+
+.btnview2
+{
+    height: 350rpx;
+    width: 350rpx;
+    background-color:rgba(36,41,121,1);
+    border-radius: 100%;
+    text-align: center;
+    line-height: 210rpx;
+}
+
+.btnview3
+{
+    height: 130rpx;
+    width: 150rpx;
+    align-self:flex-end;
+    text-align: center;
+}
+
+.btnview2 navigator
+{
+    font-size: 40rpx;
+    font-weight: 800;
+    color: rgb(227,22,35);
+}
+
+.toIndexView image 
+{
+    width: 80rpx;
+    height: 80rpx;
+}
+.myCountView image
+{
+    width: 80rpx;
+    height: 80rpx;
+}
+.color_font1
+{
+    font-weight: 600;
+    /* font-size: 14px; */
+    font-family:"黑体";
+    color: #8c888b;
+    background: -webkit-linear-gradient(45deg, rgb(0,179,238), rgb(0,164,232), rgb(0,164,232), rgb(0,82,162), rgb(0,66,136));
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: ran 10s linear infinite;
+    position: absolute;
+    top: 160rpx;
+    left: 50rpx;
+}
+.color_font2
+{
+    
+    font-weight: 600;
+    /* font-size: 14px; */
+    font-family:"黑体";
+    color: #8c888b;
+    background: -webkit-linear-gradient(45deg, rgb(0,179,238), rgb(0,164,232), rgb(0,164,232), rgb(0,82,162), rgb(0,66,136));
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: ran 10s linear infinite;
+    position: absolute;
+    top: 20rpx;
+    left: 20rpx;
+    border-bottom: 1rpx solid black;
+    width: 580rpx;
+}
+
+.color_font3
+{
+    font-weight: 600;
+    /* font-size: 14px; */
+    font-family:"黑体";
+    color: #8c888b;
+    background: -webkit-linear-gradient(45deg, rgb(0,179,238), rgb(0,164,232), rgb(0,164,232), rgb(0,82,162), rgb(0,66,136));
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: ran 10s linear infinite;
+    position: absolute;
+    top: 80rpx;
+    left: 20rpx;
+    border-bottom: 1rpx solid black;
+    width: 580rpx;
+}
+.color_font4
+{
+    font-weight: 600;
+    /* font-size: 14px; */
+    font-family:"黑体";
+    color: #8c888b;
+    background: -webkit-linear-gradient(45deg, rgb(0,179,238), rgb(0,164,232), rgb(0,164,232), rgb(0,82,162), rgb(0,66,136));
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: ran 10s linear infinite;
+    position: absolute;
+    top: 140rpx;
+    left: 20rpx;
+    border-bottom: 1rpx solid black;
+    width: 580rpx;
+}
+.color_font5
+{
+    font-weight: 600;
+    /* font-size: 14px; */
+    font-family:"黑体";
+    color: #8c888b;
+    background: -webkit-linear-gradient(45deg, rgb(0,179,238), rgb(0,164,232), rgb(0,164,232), rgb(0,82,162), rgb(0,66,136));
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: ran 10s linear infinite;
+    position: absolute;
+    top: 200rpx;
+    left: 20rpx;
+    border-bottom: 1rpx solid black;
+    width: 580rpx;
+}
+.color_font6
+{
+    font-weight: 600;
+    /* font-size: 14px; */
+    font-family:"黑体";
+    color: #8c888b;
+    background: -webkit-linear-gradient(45deg, rgb(0,179,238), rgb(0,164,232), rgb(0,164,232), rgb(0,82,162), rgb(0,66,136));
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: ran 10s linear infinite;
+    position: absolute;
+    top: 260rpx;
+    left: 20rpx;
+    border-bottom: 1rpx solid black;
+    width: 580rpx;
+}
+.bg
+{
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+    top: 230rpx;
+    left: 55rpx;
+    height: 330rpx;
+    width: 620rpx;
+    border: 1rpx solid black;
+    border-radius: 25rpx;
+}
+.menu
+{
+    position: absolute;
+    top: 600rpx;
+    left: 45rpx;
+    right: 125rpx;
+    height: 500rpx;
+    display: flex;
+    width: 660rpx;
+}
+.Item
+{
+    width: 230rpx;
+    height: 230rpx;
+    vertical-align:middle;
+    border: 10rpx solid white;
+    background-color: rgba(36,41,121,1);
+    white-space:pre-wrap;
+    color: white;
+    text-align:center;
+}

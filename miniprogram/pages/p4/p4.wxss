@@ -1,0 +1,118 @@
+/* pages/p4/p4.wxss */
+.t
+{
+    position:absolute;
+    top: 30rpx;
+    left: 30rpx;
+}
+.t1
+{
+    height: 200rpx;
+    width: 550rpx;
+    position: absolute;
+    top: 100rpx;
+    left: 60rpx;
+    background-color: gray;
+}
+.m
+{
+    position: absolute;
+    top: 20rpx;
+    left: 20rpx;
+}
+.money
+{
+    position: absolute;
+    top: 70rpx;
+    left: 30rpx;
+    height: 100rpx;
+    width: 100rpx;
+    background-color: white;
+}
+.m1
+{
+    position: absolute;
+    top: 400rpx;
+    left: 80rpx;
+}
+.m2
+{
+    position: absolute;
+    top: 470rpx;
+    left: 80rpx;
+    height: 100rpx;
+    width: 100rpx;
+    background-color: gray;
+}
+.m3
+{
+    position: absolute;
+    top: 400rpx;
+    left: 280rpx;
+}
+.m4
+{
+    position: absolute;
+    top: 470rpx;
+    left: 280rpx;
+    height: 100rpx;
+    width: 100rpx;
+    background-color: gray;
+}
+.m5
+{
+    position: absolute;
+    top: 400rpx;
+    left: 480rpx;
+}
+.m6
+{
+    position: absolute;
+    top: 470rpx;
+    left: 480rpx;
+    height: 100rpx;
+    width: 100rpx;
+    background-color: gray;
+}
+.t3
+{
+    position: absolute;
+    top: 700rpx;
+    left: 200rpx;
+}
+.m0
+{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 70rpx;
+    background-color: gray;
+    display: flex;
+}
+.faxian
+{
+    position: absolute;
+    top: 15rpx;
+    width: 33.33%;
+    text-align: center;
+}
+.zixuan
+{
+    position: absolute;
+    top: 15rpx;
+    left: 33.33%;
+    width: 33.33%;
+    text-align: center;
+}
+.zhanghu
+{
+    position: absolute;
+    top: 15rpx;
+    left: 66.66%;
+    width: 33.33%;
+    text-align: center;
+}
+button
+{
+    margin: 10rpx;
+}

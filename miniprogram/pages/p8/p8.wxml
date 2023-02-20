@@ -1,0 +1,11 @@
+<!--pages/p8/p8.wxml-->
+<text class="t1">定投计划</text>
+<view class="t2">
+    <text class="m1">月定投</text>
+    <view class="m2"></view>
+    <text class="m3">定投数量</text>
+    <view class="m4"></view>
+</view>
+<text class="m5">个性化推荐专区</text>
+<view class="t3"></view>
+<button class="t4">确认定投</button>

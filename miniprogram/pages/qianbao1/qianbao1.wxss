@@ -1,0 +1,125 @@
+.topView
+{
+    height: 120rpx;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    margin: 10rpx 0 0;
+}
+.top1
+{
+    width:120rpx;
+    height: 120rpx;
+    border-radius: 100%;
+    margin: 0 5rpx;
+    text-align: center;
+    display: flex;
+    
+}
+
+.top2
+{
+    width: 620rpx;
+    display: flex;
+    flex-direction: column;
+    height: 120rpx;
+}
+.top3
+{
+    height: 40rpx;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rpx;
+}
+.top3 image
+{
+    height: 40rpx;
+}
+.top4
+{
+    background-color: white;
+    height:70rpx;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.searchTerm
+{
+    width: 530rpx;
+    border: 6rpx solid rgba(36,41,121,1);
+    border-right: none;
+    height: 60rpx;
+    border-radius: 15rpx 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+.search 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.searchLogo
+{
+    width: 60rpx;
+    height: 60rpx;
+    border: 6rpx solid rgba(36,41,121,1);
+    background: rgba(36,41,121,1);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.searchButton icon
+{
+    margin: 10rpx 0 0 0;
+}
+.profileLoge
+{
+    height: 90%;
+    width: 90%;
+    margin: 10rpx 0 0;
+}
+
+.buttonView
+{
+    height:175rpx;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.t1{
+    margin: 30rpx;
+    border: 1rpx solid gray;
+    height: 400rpx;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.m1
+{
+    font-size: 50rpx;
+    margin: 50rpx;
+}
+.m2
+{
+    font-size: 40rpx;
+    margin: 30rpx;
+}
+.t2{
+    margin: 50rpx;
+}
+.t3{
+    width: 80%;
+    border: 1rpx solid gray;
+}
+.t4{
+    display: flex;
+    justify-content: center;
+}

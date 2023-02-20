@@ -1,0 +1,26 @@
+<!--pages/p5/p5.wxml-->
+<view class="top4">
+            <form action="">
+                <view class="search">
+                    <view>
+                    <input type="text" class="searchTerm" placeholder=" 在此处输入" confirm-type="search"/>
+                    </view>
+                    <view>
+                    <navigator url="#">
+                        <image src="https://636c-cloud1-8guak9873e478dd3-1308496979.tcb.qcloud.la/images/search_logo.png?sign=1fc9a9a0bc55820fdab652edfe9e9678&t=1646305179" class="searchLogo"></image>
+                    </navigator>
+                    </view>
+                </view>
+            </form>
+        </view>
+
+<view class="t1">
+    <text class="m1">显示支付账户</text>
+    <view class="m2"></view>
+</view>    
+<text class="m3">买入金额</text>
+<view class="t2">
+
+    <view class="m4"></view>
+</view>
+<button class="m5">确认买入</button>

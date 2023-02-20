@@ -1,0 +1,138 @@
+<!--pages/baoxian6/baoxian6.wxml-->
+
+<view class="nav-box">
+  <!-- tab框 -->
+  <view class="nav-tab">
+    <view wx:for="{{navList}}" wx:key="index" data-current="{{index}}" class="item {{currTab == index? 'active':''}} " bindtap="tabSelect">
+      <text>{{item}}</text> 
+    </view>
+  </view>
+  <!-- tab框显示内容  可以使用wx:if判断也可以使用hidden判断，这个可以根据需求选择使用-->
+  
+  <view class="content"  wx:if="{{currTab == 0 && choice==1}}">
+    想要兼得保障与财富规划的双重优势？不必等待自己成为投资专家！财富管理计划帮助您在资产增值与保障间寻求平衡，轻松实现上述目标。<view></view>
+保险与增值，鱼与熊掌，您可以兼得！<view></view>
+
+或许您正拥有如下需求：<view></view>
+1.追求稳健回报的同时获得人身保障<view></view>
+2.一次性投入初始资金，并可选择追加<view></view>
+3.借力于专业人士，畅享轻松乐活理财<view></view>
+  </view>
+  <view class="content"  wx:if="{{currTab == 0 && choice==2}}">
+少儿精英成长计划帮助您为孩子制定合适的财务方案，为他们在大学教育、持续深造、创业积累等多个人生阶段做好资金储备。
+明日精英，今日规划。未来蓝图，用心铺就。<view></view>
+<view></view>
+或许您正拥有如下需求：<view></view>
+1.提前规划教育资金，为子女创造最佳成长环境<view></view>
+2.周全的重疾保障，为子女成长保驾护航<view></view>
+3.从容应对各种突发事件，资金储备确保无忧<view></view>
+  </view>
+  <view class="content"  wx:if="{{currTab == 0 && choice==3}}">
+妥善做好家庭保障规划是每个人不可忽视的课题。财务安全方案为您与家人撑起一把稳固的保护伞，让他们安心地遮风避雨。<view></view>
+1.或许您正拥有如下需求：<view></view>
+2.抵御未知风险，享有安心呵护<view></view>
+3.周全医疗保障，应对疾病困扰<view></view>
+4.用现在的定期投入，换未来的终身保障<view></view>
+  </view>
+  <view class="content"  wx:if="{{currTab == 0 && choice==4}}">
+无论对于未来的金辉岁月，您有着怎样的憧憬及梦想，一份周全的商业养老保险方案都能够为您提供额外的收入，帮助您随心安排写意的退休生活<view></view>
+或许您正拥有如下需求：<view></view>
+1.享受美好的退休生活， 不为生活开支而惆怅<view></view>
+2.用现在的定期投入，换未来无忧晚年<view></view>
+3.参与资本市场“以变制变”，抵御通货膨胀和利率风险<view></view>
+  </view>
+  <view class="content"  wx:if="{{currTab == 0 && choice==5}}">
+对应人生的不同阶段，每个人的财富生命周期也包括了创造，保值，增值和传承四个阶段。作为富裕阶层的您，更应该关注以下问题：<view></view>
+1.如何运用保险进行风险管理，避免财富损失<view></view>
+2.如何制订平衡的财富管理计划确保“富在今朝，贵在千秋”<view></view>
+3.如何保障家庭资产安全，与企业资产剥离，进行合理避税等安排<view></view>
+资产传承保险，力争让您安心无忧地享受现在的生活，为您的子女以及家庭规划美好的未来。<view></view>
+  </view>
+  <view class="content" wx:if="{{currTab == 1 && choice==1}}">暂无</view>
+  <view class="content" wx:if="{{currTab == 1 && choice==2}}">
+1.积少成多、聚沙成塔，拟定您的个性化教育金组合计划<view></view>
+2.周详的重疾保障，让孩子享有全面照顾<view></view>
+3.任何变故之下，教育资金不受波及，关爱始终延续<view></view>
+  </view>
+  <view class="content" wx:if="{{currTab == 1 && choice==3}}">
+1.保单有效期内提供高额人身保障<view></view>
+2.均衡保费投入，累积现金价值<view></view>
+3.死亡赔付金免除受益人税务负担<view></view>
+4.重疾和住院医疗保障，享受无忧人生<view></view>
+  </view>
+  <view class="content" wx:if="{{currTab == 1 && choice==4}}">
+1.达到特定年龄后，可享受定期按保额固定比例的退休金给付<view></view>
+2.有保证的给付金额及年限，使您的退休生活更有保障<view></view>
+3.即使在保证给付退休金的年限内被保险人过世，受益人仍可领取剩余部分<view></view>
+4.若选择产品组合式的退休计划（例如年金保险和万能险的组合），更可享受生存现金与周年红利进入万能账户累积的功能，不断为您的养老储备注入增长动力<view></view>
+  </view>
+  <view class="content" wx:if="{{currTab == 1 && choice==5}}">
+    1.安全可靠的风险管控，延续您高品质生活状态<view></view>
+2.高额资产保障，确保财富安全无忧<view></view>
+3.资产完整延续传承，无任何税务负担<view></view>
+4.指定收益金领取制度，有效实现按投保人意愿分配财产的过程<view></view>
+  </view>
+  <view class="content" wx:if="{{currTab == 2 && choice==1}}">暂无</view>
+  <view class="content" wx:if="{{currTab == 2 && choice==2}}">
+如果您的孩子在18周岁以下并且您拥有花旗账户，即可联系我们：<view></view>
+1.联系您的专属客户经理预约<view></view>
+2.线上预约<view></view>
+3.更多信息，请拨打花旗24小时服务热线 95038 / 400-821-1880 / 800-830-1880（限中国大陆固话拨打）。境外请拨打(+86)-(20)-3880-1267。<view></view>
+ *如果您选择的是投资连结保险或是变额年金保险，请完成风险评估测试，以帮助您选择适宜的保险产品。<view></view>
+  </view>
+  <view class="content" wx:if="{{currTab == 2 && choice==3}}">
+如果您在中国拥有居住地址，并且拥有花旗账户，即可马上行动：<view></view>
+1.联系您的专属客户经理预约<view></view>
+2.线上预约<view></view>
+3.更多信息，请拨打花旗24小时服务热线 95038 / 400-821-1880 / 800-830-1880（限中国大陆固话拨打）。境外请拨打(+86)-(20)-3880-1267。<view></view>
+ *如果您选择的是投资连结保险或是变额年金保险，请完成风险评估测试，以帮助您选择适宜的保险产品。<view></view>
+  </view>
+  <view class="content" wx:if="{{currTab == 2 && choice==4}}">
+如果您在中国拥有居住地址，并且拥有花旗账户，即可马上行动：<view></view>
+1.联系您的专属客户经理预约<view></view>
+2.线上预约<view></view>
+3.更多信息，请拨打花旗24小时服务热线 95038 / 400-821-1880 / 800-830-1880（限中国大陆固话拨打）。境外请拨打(+86)-(20)-3880-1267。<view></view>
+ *如果您选择的是投资连结保险或是变额年金保险，请完成风险评估测试，以帮助您选择适宜的保险产品。<view></view>
+  </view>
+  <view class="content" wx:if="{{currTab == 2 && choice==5}}">
+    如果您的流动现金在千万人民币以上，且拥有财富传承需求，欢迎与我们联系，寻求专属方案：  <view></view>
+ 1.联系您的专属客户经理预约<view></view>
+2.线上预约<view></view>
+3.更多信息，请拨打花旗24小时服务热线 95038 / 400-821-1880 / 800-830-1880（限中国大陆固话拨打）。境外请拨打(+86)-(20)-3880-1267。<view></view>
+ *如果您选择的是投资连结保险或是变额年金保险，请完成风险评估测试，以帮助您选择适宜的保险产品。<view></view>
+  </view>
+  <view class="content" wx:if="{{currTab == 3 && choice==1}}">暂无</view>
+  <view class="content" wx:if="{{currTab == 3 && choice==2}}">
+1.特设的多项礼遇，助您成就未来的财富领袖和商业精英。如：<view></view>
+2.花旗私享家客户/花旗财富管理客户所享有礼遇<view></view>
+3.海外留学资产配置建议<view></view>
+4.教育主题互动体验<view></view>
+
+  </view>
+  <view class="content" wx:if="{{currTab == 3 && choice==3}}">
+    财务安全方案特设多项抵御风险、关爱健康的配套服务，为您的健康生活倍添一份体贴与关怀。如：<view></view>
+1.花旗私享家客户/花旗财富管理客户所享有礼遇<view></view>
+2.齿科保健*<view></view>
+3.保单诊断服务<view></view>
+4.理赔协助服务<view></view>
+标注*礼遇由保险公司全权提供及代理，且保险公司拥有相关服务解释权<view></view>
+  </view>
+  <view class="content" wx:if="{{currTab == 3 && choice==4}}">
+退休规划方案特设多项配套服务，为您现在及将来的生活倍添一份关怀。如：<view></view>
+1.花旗私享家客户/花旗财富管理客户所享有礼遇<view></view>
+2.体检套餐服务*<view></view>
+3.保单管家服务*<view></view>
+4.理赔协助服务
+标注*礼遇由保险公司全权提供及代理，且保险公司拥有相关服务解释权 
+  </view>
+  <view class="content" wx:if="{{currTab == 3 && choice==5}}">
+    财富即生活。作为服务高端富裕人群的金融服务专家，花旗银行将通过卓越的金融平台及贴心的增值服务来传达“财富传承+极致生活”的价值理念<view></view>
+1.会计咨询服务*<view></view>
+2.法律咨询服务*<view></view>
+3.保单管家服务*<view></view>
+4.SOS全球贵宾礼遇*<view></view>
+5.商学院专署通道<view></view>
+
+标注*礼遇由保险公司全权提供及代理，且保险公司拥有相关服务解释权<view></view>
+  </view>
+</view>

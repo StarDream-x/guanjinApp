@@ -1,0 +1,27 @@
+<!--pages/p4/p4.wxml-->
+<text class="t">我的账户</text>
+<view class="t1">
+    <text class="m">总资产</text>
+    <view class="money"></view>
+</view>
+    <text class="m1">昨日收益</text>
+    <view class="m2"></view>
+    <text class="m3">持仓收益</text>
+    <view class="m4"></view>
+    <text class="m5">累计收益</text>
+    <view class="m6"></view>
+<view class="t3">
+    <view class="buttonflex">
+        <button bindtap="mairu">买入</button>
+        <button bindtap="maichu">卖出</button>
+        <button bindtap="jiaoyi">交易记录</button>
+        <button bindtap="dingtou">定投</button>
+    </view>
+</view>
+
+<view class="m0">
+    <navigator class="faxian" url="../p2/p2">发现</navigator>
+    <navigator class="zixuan" url="../p3/p3">自选</navigator>
+    <navigator class="zhanghu" url="../p4/p4">我的账户</navigator>
+</view>
+
